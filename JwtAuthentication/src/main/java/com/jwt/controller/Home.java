@@ -10,7 +10,7 @@ public class Home {
     @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String welcome()
     {
-        String text= "This is private";
+        String text= "JSON Web Token Authentication";
         text
 
                 +=" this page is not allowed unauthenticated users";
